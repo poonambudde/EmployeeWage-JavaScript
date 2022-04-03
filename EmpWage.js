@@ -16,7 +16,6 @@ const NO_OF_WORKING_DAYS = 20;
         let empHrs=getWorkHours(empCheck);
         totalEmpHrs += empHrs;
     }
-  
 // Check Employee is present or Absent or part time       
     function getWorkHours(empCheck)
     {
