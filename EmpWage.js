@@ -1,6 +1,6 @@
 console.log("Welcome to Employee Wage Program using java script")
 
-// Calculate Daily Employee Wage based on part time or full time work .
+// Calculate Daily Employee Wage based on part time or full time work.
 const IS_ABSENT = 0;
 const IS_PART_TIME = 1;
 const IS_FULL_TIME = 2;
@@ -19,7 +19,7 @@ const MAX_HOURS_IN_MONTH = 160;
         totalEmpHrs += empHrs;
         totalWorkingDays++
     }
-
+  
 // Check Employee is present or Absent or part time       
     function getWorkHours(empCheck)
     {
