@@ -18,8 +18,7 @@ const MAX_HOURS_IN_MONTH = 160;
         let empHrs=getWorkHours(empCheck);
         totalEmpHrs += empHrs;
         totalWorkingDays++
-    }
-  
+    }  
 // Check Employee is present or Absent or part time       
     function getWorkHours(empCheck)
     {
